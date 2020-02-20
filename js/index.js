@@ -19,3 +19,6 @@ fetch('https://api.themoviedb.org/3/movie/popular?api_key=d8d436ca878e548c5f0a4b
                     			</div>`;
       }
   }))
+
+
+  // PR for malik
