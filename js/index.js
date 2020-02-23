@@ -4,7 +4,7 @@ const section = document.querySelector(".new-films");
 const fixed_nav = document.querySelector("header");
 const arrow = document.querySelector('#icon');
 const sec = document.querySelector('.section-3');
-const $scrollButton = document.querySelector('.toTop');
+const $scrollButton = document.querySelector('.to-top');
 
 navButton.addEventListener("click", () => {
   nav.classList.toggle("mobile-hidden");
