@@ -2,6 +2,9 @@ const navButton = document.querySelector(".bars");
 // films section
 const section = document.querySelector(".new-films");
 const fixed_nav = document.querySelector("header");
+const arrow = document.querySelector('#icon');
+const sec = document.querySelector('.section-3');
+const $scrollButton = document.querySelector('.to-top');
 
 navButton.addEventListener("click", () => {
   nav.classList.toggle("mobile-hidden");
@@ -33,4 +36,13 @@ document.addEventListener("scroll", () => {
     fixed_nav.classList.remove("fixed");
     document.body.style.marginTop = "0";
   }
+});
+
+//scroll to top
+$scrollButton.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: 'smooth'
+  });
 });
