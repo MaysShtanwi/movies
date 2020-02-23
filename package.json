@@ -1,0 +1,25 @@
+{
+  "name": "movies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass scss -o css --output-style compressed",
+    "watch-sass": "node-sass --watch scss -o css --output-style compressed",
+    "dev": "http-server ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaysShtanwi/movies.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaysShtanwi/movies/issues"
+  },
+  "homepage": "https://github.com/MaysShtanwi/movies#readme",
+  "dependencies": {
+    "http-server": "^0.12.1",
+    "node-sass": "^4.13.1"
+  }
+}
