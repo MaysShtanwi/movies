@@ -20,6 +20,6 @@
   "homepage": "https://github.com/MaysShtanwi/movies#readme",
   "dependencies": {
     "http-server": "^0.12.1",
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   }
 }
